@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import axios from "axios";
+import "../assets/css/Story.css"
 
 
 function App() {
@@ -28,9 +29,9 @@ function App() {
 
   return (
     <div className="app">
-      <h1>🕰️ Imagine a...</h1>
+      <h1>✨ Imagine a...</h1>
       <textarea style={{borderRadius:"10px", width:"600px"}}
-        placeholder="Enter your 'What If?' prompt here..."
+        placeholder="Enter your prompt here..."
         value={prompt}
         onChange={(e) => setPrompt(e.target.value)}
       />

@@ -10,7 +10,7 @@ load_dotenv()
 app = Flask(__name__)
 CORS(app)
 
-API_URL = "https://api-inference.huggingface.co/models/HuggingFaceH4/zephyr-7b-alpha"
+API_URL = "https://api-inference.huggingface.co/models/mistralai/Mistral-7B-Instruct-v0.1"
 API_KEY = os.getenv("HF_API_KEY")  # Get your key from .env
 headers = {
     "Authorization": f"Bearer {API_KEY}"
