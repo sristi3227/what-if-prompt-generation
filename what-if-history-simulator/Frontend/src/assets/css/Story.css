@@ -2,18 +2,22 @@
 
 .app {
   font-family: 'Quicksand', sans-serif;
-  background-color: #fff5f8;
+  background:url("../Background.png");
   color: #4b3f72;
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 50px 20px;
-  min-height: 100vh;
+  min-height: 82.5vh;
+  border:2px solid red;
+
+  background-color: rgba(255, 255, 255, 0.75); /* makes it slightly transparent */
+  backdrop-filter: blur(2px); /* optional, adds soft blur for fairy-tale effect */
 }
 
 h1 {
   font-size: 2.5rem;
-  color: #ff6f91;
+  color: #570518;
   margin-bottom: 25px;
   text-align: center;
   text-shadow: 1px 1px #ffe2ec;
