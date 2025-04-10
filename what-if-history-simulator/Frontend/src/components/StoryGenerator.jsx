@@ -41,7 +41,9 @@ function App() {
       {story && (
         <div className="story">
           <h2>Generated Story</h2>
-          <p>{story}</p>
+          <p>
+            {story}
+            </p>
         </div>
       )}
     </div>
